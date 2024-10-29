@@ -24,5 +24,8 @@ inserisco un istruzione condizionale all'interno del ciclo:
         quel num si chiamerà "Fizz"
     } altrimenti se (un num è divisibile per 5) {
         quel num si chiamerà "Buzz"
-    } altrimenti (un numero è divisibile per 3 & per 5)
+    } altrimenti se (un numero è divisibile per 3 & per 5) {
         quel num si chiamerà "FizzBuzz".
+    } altrimenti {
+        niente
+    }    
